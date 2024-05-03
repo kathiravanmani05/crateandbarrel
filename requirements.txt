@@ -1,0 +1,9 @@
+botocore==1.16.14
+scrapy-zyte-smartproxy==2.3.1
+
+# The following requirements are needed for running customer scripts (stuff within the `jobs` folder)
+scrapinghub[msgpack]
+requests
+pandas
+openpyxl
+mysql-connector-python
